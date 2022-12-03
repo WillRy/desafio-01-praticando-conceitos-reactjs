@@ -1,0 +1,40 @@
+
+.checked {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--purple-600);
+    background: var(--purple-600);
+    color: var(--gray-100);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.checked:hover {
+    background: var(--purple-500);
+    box-shadow: 0 0 0 2px var(--purple-500);
+}
+
+.unchecked {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--blue-500);
+    color: var(--gray-100);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.unchecked:hover {
+    background: rgba(30, 111, 159, 0.2);
+}

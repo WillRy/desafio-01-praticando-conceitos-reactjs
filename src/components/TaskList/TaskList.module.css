@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.totalIndicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.createdText {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: var(--blue-500);
+}
+
+.completedText {
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: var(--purple-500);
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 2px 8px;
+
+    min-width: 25px;
+    height: 19px;
+
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 999px;
+
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+.listEmpty {
+    border-top: 1px solid #333333;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 24px;
+    gap: 16px;
+}
+
+.listEmpty img {
+    display: block;
+    width: 56px;
+    height: 56px;
+}
+
+.listEmpty h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+}
+
+.listEmpty p {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 22px;
+    text-align: center;
+}
